@@ -1,1 +1,55 @@
 learn-c-the-hard-way-lectures-master/
+
+
+# Build directories (also covers executables without extensions)
+build/
+bin/
+obj/
+cmake-build-*/
+
+# Compiled object and dependency files
+*.o
+*.obj
+*.d
+
+# Libraries
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+
+# CMake-generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+
+# Coverage and profiling output
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+gmon.out
+
+# Debugging output
+*.dSYM/
+*.pdb
+/core
+/core.[0-9]*
+
+# Editor temporary files
+*~
+*.swp
+*.swo
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
